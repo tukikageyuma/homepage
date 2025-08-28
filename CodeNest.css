@@ -1,0 +1,55 @@
+/* CodeNest.css - Very bright theme with Noto Sans Japanese font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: 'Seurat', 'Seurat', Arial, Seurat;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+a {
+    color: #0078ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header{
+    background: #ffffff;
+    color: #000000;
+    padding: 1.5em 0;
+}
+
+button, input, textarea, select {
+    font-family: Seurat;
+    background: #fff;
+    color: #000000;
+    border: 1px solid #ffe082;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+code, pre {
+    background: #fffde7;
+    color: #d84315;
+    font-family: 'Fira Mono', 'Consolas', monospace;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
+footer {
+    background: #ffffff0e;
+    color: #000000;
+    padding: 1.5em 0;
+    text-align: center;
+}
